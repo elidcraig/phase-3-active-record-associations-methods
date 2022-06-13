@@ -20,6 +20,8 @@ gem "sqlite3", "~> 1.4"
 # https://github.com/jarmo/require_all
 gem "require_all"
 
+gem "faker", "~> 2.19"
+
 # These gems will only be used when we are running the application locally
 group :development do
   gem "pry"
@@ -30,3 +32,5 @@ group :test do
   gem "database_cleaner"
   gem "rspec"
 end
+
+
